@@ -1,0 +1,54 @@
+body {
+    background: #f7efe7 url('https://cdn.pixabay.com/photo/2016/03/31/19/14/dog-1296281_1280.png') repeat;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #e67e22;
+    text-align: center;
+    margin-top: 30px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.menu a {
+    background: #fff7e6;
+    color: #e67e22;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 18px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ebc08f;
+    transition: background 0.2s;
+}
+.menu a:hover {
+    background: #ffe0b2;
+}
+table {
+    margin: 30px auto;
+    background: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px #c8a573;
+    width: 95%;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #e1b96b;
+}
+th {
+    background: #fde2c7;
+}
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+        gap: 18px;
+    }
+    table, th, td {
+        font-size: 14px;
+        padding: 7px;
+    }
+}
